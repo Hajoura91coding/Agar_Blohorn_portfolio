@@ -39,7 +39,7 @@
 <meta itemprop="name" content="Conception d&#39;une application au service de la santé publique">
 <meta itemprop="description" content="Moteur de recommandation"><meta itemprop="datePublished" content="2017-04-09T10:58:08-04:00" />
 <meta itemprop="dateModified" content="2017-04-09T10:58:08-04:00" />
-<meta itemprop="wordCount" content="67">
+<meta itemprop="wordCount" content="589">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Conception d&#39;une application au service de la santé publique"/>
 <meta name="twitter:description" content="Moteur de recommandation"/>
@@ -188,21 +188,76 @@
       
       
     </header>
-    <div class="nested-copy-line-height lh-copy avenir bg-white f4 nested-links mid-gray pr4-l w-two-thirds-l"><p><img src="https://hajoura91coding.github.io/Agar_Blohorn_portfolio/images/CompetencesP2.PNG" alt="commentaires" title="commentaires">
-L&rsquo;agence &ldquo;Santé publique France&rdquo; a lancé un appel à projets pour trouver des idées innovantes d’applications en lien avec l&rsquo;alimentation. Vous souhaitez y participer et proposer une idée d’application.</p>
+    <div class="nested-copy-line-height lh-copy avenir bg-white f4 nested-links mid-gray pr4-l w-two-thirds-l"><p><img src="https://hajoura91coding.github.io/Agar_Blohorn_portfolio/images/CompetencesP2.PNG" alt="commentaires" title="commentaires"></p>
+<hr>
+<p>L&rsquo;agence &ldquo;Santé publique France&rdquo; a lancé un appel à projets pour trouver des idées innovantes d’applications en lien avec l&rsquo;alimentation. Vous souhaitez y participer et proposer une idée d’application.</p>
 <p><strong>Ma mission :</strong></p>
 <ul>
-<li>
-<p>Traiter le jeu de données</p>
+<li>Traiter le jeu de données
 <ul>
 <li>Réfléchir à une idée d&rsquo;application</li>
 <li>Repérer des variables pertinentes pour les traitements à venir, et nécessaires pour l&rsquo;application</li>
 <li>Nettoyer les données</li>
 <li>Automatiser ces traitements pour éviter de répéter ces opérations</li>
 </ul>
-<p><img src="https://hajoura91coding.github.io/Agar_Blohorn_portfolio/images/commentairesP2.PNG" alt="commentaires" title="commentaires"></p>
 </li>
 </ul>
+<hr>
+<h2 id="mon-idée-dapplication-">Mon idée d&rsquo;application :</h2>
+<p><strong>Le système de recommandation basé sur le contenu :</strong>
+Méthode basé sur le contenu : l&rsquo;utilisateur se verra recommander des éléments semblables (au sens d&rsquo;une mesure de similarité entre éléments) à ceux qu&rsquo;il a préférés dans le passé.</p>
+<p><strong>Principe de l&rsquo;application :</strong>
+L&rsquo;utilisateur pourra rentrer un type de plat préparé et choisir le plats selon la notation du nutriscore.</p>
+<p><img src="https://hajoura91coding.github.io/Agar_Blohorn_portfolio/images/Appli.jpg" alt="commentaires" title="commentaires"></p>
+<p><strong>But principal :</strong>
+Faciliter le choix des produits aux consommateurs en fonction de leurs besoins grâce aux nutriscores.</p>
+<p><strong>Cible :</strong>
+Tous utilisateurs recherchant un produits préparés dans les supermarchés.</p>
+<h2 id="ciblage-des-données">Ciblage des données</h2>
+<p><img src="https://hajoura91coding.github.io/Agar_Blohorn_portfolio/images/choix_plats.png" alt="commentaires" title="commentaires"></p>
+<p>Mon choix s&rsquo;est porté pour les composites food (plats préparés) car les classes nutriscore (a, b, c, d, e) sont à peu près équilibrés et aussi pour avoir une certaines logiques d&rsquo;interprétations</p>
+<h2 id="réduction-dimensionnelle">Réduction dimensionnelle</h2>
+<p><img src="https://hajoura91coding.github.io/Agar_Blohorn_portfolio/images/corrP2.png" alt="commentaires" title="commentaires"></p>
+<p>Le 1er plan factoriel explique 40.9% de l’inertie totale</p>
+<ul>
+<li>Les fibres, protéines et graisses saturés sont bien représenté</li>
+<li>Les plats préparé avec beaucoup de fibres sont opposé aux plats avec beaucoup de calories et graisses saturées</li>
+<li>Les plats avec des protéines peuvent être « sain » comme « gras »</li>
+</ul>
+<h2 id="conclusion">Conclusion</h2>
+<p>Une augmentation du nutriscore revient à une diminution de la qualité nutritionnelle de l&rsquo;aliments</p>
+<p>D’après l’ACP, il y a d’un côté les produits contenant des fibres (des plats préparés « sain ») opposé au plats préparés contenant des graisses saturées (des plats gras).
+Normalement, on s’attend a ce que le sel soit opposé au sucre ou les protéines soient opposé au calories mais voici mes interprétations :</p>
+<ul>
+<li>L&rsquo;ajout de sucre permet un ajustement d’acidité</li>
+<li>L&rsquo;ajout de sel joue le rôle d&rsquo;exhausteur de gout</li>
+<li>Ca peut également pallier à la transformation des aliments</li>
+</ul>
+<h2 id="partie-nlp-option--construction-du-moteur-de-recommandation">Partie NLP (option : construction du moteur de recommandation)</h2>
+<p>NLP natural language processing est une branche de l&rsquo;intelligence artificielle qui a pour but de faire comprendre à la machine le langage humain et de pouvoir l&rsquo;interpreter.</p>
+<p>J&rsquo;ai pris en compte les textes descriptifs de chaque plats préparés, j&rsquo;ai nettoyé le texte et j&rsquo;ai fais une rapide analyse exploratoire.</p>
+<p><img src="https://hajoura91coding.github.io/Agar_Blohorn_portfolio/images/P2wordcloud.png" alt="commentaires" title="commentaires"></p>
+<p>Les mots qui reviennent le plus dans les noms des produits sont le boeuf, le fromage et le poulet.</p>
+<p><img src="https://hajoura91coding.github.io/Agar_Blohorn_portfolio/images/P2wordcloud2.png" alt="commentaires" title="commentaires"></p>
+<p>Les aliments qui reviennent le plus dans les listes des différents ingrédients de chacun des produits sont : le sel, les enzymes, la sauce soja, l&rsquo;huile, la farine de blé, l&rsquo;acide citrique.</p>
+<p>La plupart de ces ingrédients ne sont pas bon pour la santé, le sel en trop grande quantité favorise les maladies cardio-vasculaire, l&rsquo;acide citrique est un additif pour réguler l&rsquo;acidité et c&rsquo;est aussi un exhausteur de gout. La sauce soja est ou trop salé ou trop sucré. On trouve également les arôme naturel.</p>
+<p>J&rsquo;applique maintenant la méthode TF-IDF pour faire resortir au mieux les mots clés propres a chaque descriptif de produit et j&rsquo;applique une distance qui permet de  mesurer la similarité entre deux plats et favoriser la recommandation de plats similaires aux clients.</p>
+<p>Voici un exemple de l&rsquo;application :</p>
+<p><img src="https://hajoura91coding.github.io/Agar_Blohorn_portfolio/images/recomP2.png" alt="commentaires" title="commentaires"></p>
+<hr>
+<blockquote>
+<p><em><strong>&ldquo;Bonne qualité des slides&rdquo;</strong></em></p>
+</blockquote>
+<blockquote>
+<p><em><strong>&ldquo;Bonne présentation de l&rsquo;idée d&rsquo;application qui est pertinente et originale&rdquo;</strong></em></p>
+</blockquote>
+<blockquote>
+<p><em><strong>&ldquo;Excellente simulation de l&rsquo;application avec plusieurs exemples&rdquo;</strong></em></p>
+</blockquote>
+<blockquote>
+<p><em><strong>&ldquo;Très bon travail avec notamment l&rsquo;utilisation du NLP pour l&rsquo;application (au delà des attentes, félicitation !)&rdquo;</strong></em></p>
+</blockquote>
+<p><a href="https://github.com/Hajoura91coding/Projet_2">Link to github repository</a></p>
 <ul class="pa0">
   
 </ul>
