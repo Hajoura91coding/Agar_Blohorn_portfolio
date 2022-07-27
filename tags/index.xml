@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Agar Blohorn</title>
-    <link>https://hajoura91coding.github.io/Agar_Blohorn_portfolio/tags/</link>
+    <link>https://github.com/Hajoura91coding/Agar_Blohorn_portfolio/tags/</link>
     <description>Recent content in Tags on Agar Blohorn</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://hajoura91coding.github.io/Agar_Blohorn_portfolio/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://github.com/Hajoura91coding/Agar_Blohorn_portfolio/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

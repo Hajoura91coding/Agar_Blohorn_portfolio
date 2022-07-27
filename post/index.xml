@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mes projets on Agar Blohorn</title>
-    <link>https://hajoura91coding.github.io/Agar_Blohorn_portfolio/post/</link>
+    <link>https://github.com/Hajoura91coding/Agar_Blohorn_portfolio/post/</link>
     <description>Recent content in Mes projets on Agar Blohorn</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 02 Mar 2017 12:00:00 -0500</lastBuildDate><atom:link href="https://hajoura91coding.github.io/Agar_Blohorn_portfolio/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 02 Mar 2017 12:00:00 -0500</lastBuildDate><atom:link href="https://github.com/Hajoura91coding/Agar_Blohorn_portfolio/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Analyse des données de systèmes éducatifs</title>
-      <link>https://hajoura91coding.github.io/Agar_Blohorn_portfolio/post/projet_1/</link>
+      <link>https://github.com/Hajoura91coding/Agar_Blohorn_portfolio/post/projet_1/</link>
       <pubDate>Sun, 09 Apr 2017 10:58:08 -0400</pubDate>
       
-      <guid>https://hajoura91coding.github.io/Agar_Blohorn_portfolio/post/projet_1/</guid>
+      <guid>https://github.com/Hajoura91coding/Agar_Blohorn_portfolio/post/projet_1/</guid>
       <description>Data scientist au sein d&amp;rsquo;une start-up de la EdTech, nommée academy qui propose des contenus de formations en ligne pour un public de niveau lycée et universitaire.
 Le projet est d&amp;rsquo;étendre à l&amp;rsquo;international l&amp;rsquo;entreprise. Les questions que me posent mon manager :
  Quels sont les pays avec un fort potentiel de clients pour nos services ? Pour chacun de ces pays, quelle sera l&amp;rsquo;évolution de ce potentiel de clients ?</description>
@@ -20,10 +20,10 @@ Le projet est d&amp;rsquo;étendre à l&amp;rsquo;international l&amp;rsquo;entr
     
     <item>
       <title>Anticipation des besoins en consommation électrique de bâtiments</title>
-      <link>https://hajoura91coding.github.io/Agar_Blohorn_portfolio/post/projet_3/</link>
+      <link>https://github.com/Hajoura91coding/Agar_Blohorn_portfolio/post/projet_3/</link>
       <pubDate>Sun, 09 Apr 2017 10:58:08 -0400</pubDate>
       
-      <guid>https://hajoura91coding.github.io/Agar_Blohorn_portfolio/post/projet_3/</guid>
+      <guid>https://github.com/Hajoura91coding/Agar_Blohorn_portfolio/post/projet_3/</guid>
       <description>Je travaille pour la ville de Seattle qui veut atteindre son objectif de ville neutre en émissions de carbone en 2050.
 Problématique : Prédire les émissions de C02 et la consommation totale d&amp;rsquo;énergie de bâtiments
 Missions :
@@ -32,10 +32,10 @@ Missions :
     
     <item>
       <title>Classification automatique des biens de consommation</title>
-      <link>https://hajoura91coding.github.io/Agar_Blohorn_portfolio/post/projet_5/</link>
+      <link>https://github.com/Hajoura91coding/Agar_Blohorn_portfolio/post/projet_5/</link>
       <pubDate>Sun, 09 Apr 2017 10:58:08 -0400</pubDate>
       
-      <guid>https://hajoura91coding.github.io/Agar_Blohorn_portfolio/post/projet_5/</guid>
+      <guid>https://github.com/Hajoura91coding/Agar_Blohorn_portfolio/post/projet_5/</guid>
       <description>Je suis Data scientist au sein de l&amp;rsquo;entreprise &amp;ldquo;Place de marché&amp;rdquo; qui souhaite lancer une marketplace e-commerce.
 Problématique : L&amp;rsquo;attribution de la catégorie d&amp;rsquo;un article est effectué manuellement par les vendeurs, et est donc peu fiable. De plus, le volume des articles est pour l&amp;rsquo;instant très petit. Il faut automatiser cette tâche.
 Objectif : étudier la faisabilité d&amp;rsquo;un moteur de classification des articles en différentes catégories, avec un niveau de précision suffisant</description>
@@ -43,10 +43,10 @@ Objectif : étudier la faisabilité d&amp;rsquo;un moteur de classification des 
     
     <item>
       <title>Conception d&#39;une application au service de la santé publique</title>
-      <link>https://hajoura91coding.github.io/Agar_Blohorn_portfolio/post/projet_2/</link>
+      <link>https://github.com/Hajoura91coding/Agar_Blohorn_portfolio/post/projet_2/</link>
       <pubDate>Sun, 09 Apr 2017 10:58:08 -0400</pubDate>
       
-      <guid>https://hajoura91coding.github.io/Agar_Blohorn_portfolio/post/projet_2/</guid>
+      <guid>https://github.com/Hajoura91coding/Agar_Blohorn_portfolio/post/projet_2/</guid>
       <description>L&amp;rsquo;agence &amp;ldquo;Santé publique France&amp;rdquo; a lancé un appel à projets pour trouver des idées innovantes d’applications en lien avec l&amp;rsquo;alimentation. Vous souhaitez y participer et proposer une idée d’application.
 Ma mission :
  Traiter le jeu de données  Réfléchir à une idée d&amp;rsquo;application Repérer des variables pertinentes pour les traitements à venir, et nécessaires pour l&amp;rsquo;application Nettoyer les données Automatiser ces traitements pour éviter de répéter ces opérations     Mon idée d&amp;rsquo;application : Le système de recommandation basé sur le contenu : Méthode basé sur le contenu : l&amp;rsquo;utilisateur se verra recommander des éléments semblables (au sens d&amp;rsquo;une mesure de similarité entre éléments) à ceux qu&amp;rsquo;il a préférés dans le passé.</description>
@@ -54,10 +54,10 @@ Ma mission :
     
     <item>
       <title>Déploiment d&#39;un modèle dans le cloud</title>
-      <link>https://hajoura91coding.github.io/Agar_Blohorn_portfolio/post/projet_7/</link>
+      <link>https://github.com/Hajoura91coding/Agar_Blohorn_portfolio/post/projet_7/</link>
       <pubDate>Sun, 09 Apr 2017 10:58:08 -0400</pubDate>
       
-      <guid>https://hajoura91coding.github.io/Agar_Blohorn_portfolio/post/projet_7/</guid>
+      <guid>https://github.com/Hajoura91coding/Agar_Blohorn_portfolio/post/projet_7/</guid>
       <description>Je suis Data Scientist dans une très jeune start-up de l&amp;rsquo;AgriTech, nommée &amp;ldquo;Fruits!&amp;rdquo; qui cherche à proposer des solutions innovantes pour la récolte des fruits.
 Problématique : Mettre en place une première version de moteur de classification des images de fruits.
 Missions :
@@ -66,10 +66,10 @@ Missions :
     
     <item>
       <title>Evaluation du risque de crédit</title>
-      <link>https://hajoura91coding.github.io/Agar_Blohorn_portfolio/post/projet_6/</link>
+      <link>https://github.com/Hajoura91coding/Agar_Blohorn_portfolio/post/projet_6/</link>
       <pubDate>Sun, 09 Apr 2017 10:58:08 -0400</pubDate>
       
-      <guid>https://hajoura91coding.github.io/Agar_Blohorn_portfolio/post/projet_6/</guid>
+      <guid>https://github.com/Hajoura91coding/Agar_Blohorn_portfolio/post/projet_6/</guid>
       <description>Je suis Data scientist pour une société financière, nommée &amp;ldquo;Prêt à dépenser&amp;rdquo; qui propose des crédits à la consommation pour des personnes ayant peu ou pas du tout d&amp;rsquo;historique de prêt.
 Problématique : Mettre en oeuvre un outil de scoring crédit pour calculer la probabilité qu&amp;rsquo;un client rembourse son crédit, puis classifie la demande en crédit accordé ou refusé. Développer un algorithme de classification.
 Missions :
@@ -78,10 +78,10 @@ Missions :
     
     <item>
       <title>Segmentation des clients d&#39;un site e-commerce</title>
-      <link>https://hajoura91coding.github.io/Agar_Blohorn_portfolio/post/projet_4/</link>
+      <link>https://github.com/Hajoura91coding/Agar_Blohorn_portfolio/post/projet_4/</link>
       <pubDate>Sun, 09 Apr 2017 10:58:08 -0400</pubDate>
       
-      <guid>https://hajoura91coding.github.io/Agar_Blohorn_portfolio/post/projet_4/</guid>
+      <guid>https://github.com/Hajoura91coding/Agar_Blohorn_portfolio/post/projet_4/</guid>
       <description>Je suis consultante chez Olist, une entreprise brésilienne qui propose une solution de vente sur les marketplaces en ligne.
 Problématique : segmenter les clients pour améliorer leur campagnes de communication
 Objectif : comprendre les différents types d&amp;rsquo;utilisateurs grâce à leur comportement et à leurs données personnelles

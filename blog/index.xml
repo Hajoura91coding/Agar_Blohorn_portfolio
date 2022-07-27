@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Articles on Agar Blohorn</title>
-    <link>https://hajoura91coding.github.io/Agar_Blohorn_portfolio/blog/</link>
+    <link>https://github.com/Hajoura91coding/portfolio/blog/</link>
     <description>Recent content in Articles on Agar Blohorn</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 02 Mar 2017 12:00:00 -0500</lastBuildDate><atom:link href="https://hajoura91coding.github.io/Agar_Blohorn_portfolio/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 02 Mar 2017 12:00:00 -0500</lastBuildDate><atom:link href="https://github.com/Hajoura91coding/portfolio/blog/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
